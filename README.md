@@ -1,11 +1,11 @@
-# Hello Microverse 
+# PORTFOILIO Webpage
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-  - [🚀 Live Demo](#live-demo)
+  - [🚀 Live Demolive-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -18,9 +18,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Hello Microverse Project
+# 📖 Portfolio-setup
 
-**[Portfolio-mobile]** is a simple HTML and CSS webpage design with flex from module 1 first Microverse Project,in this project,I set up a new repository, there were no complex coding is required however the  goal was to master all of the tools and best practices learned about in previous steps.
+**[Portfolio-webpage]** is a simple HTML and CSS webpage design with flex from module 1  Microverse Project,in this project,I set up a new repository, there were no complex coding is required however the  goal was to master all of the tools and best practices learned about in previous steps.
 
 ## 🛠 Built With 
 1.HTML
