@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto:wght@400;500;700;900&display=swap");
 
 * {
   padding: 0;
@@ -72,13 +72,37 @@ p {
   padding-right: 24px;
 }
 
-.profile > ul {
+.profile ul {
   display: inline-flex;
   padding: 30px 24px;
   gap: 12px;
 }
 
-.profile > ul > li {
+.nx li {
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #091e42;
+  list-style: none;
+}
+
+.ul li {
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 4px;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #fff;
+}
+
+.profile ul li {
   text-decoration: none;
   list-style: none;
 }
@@ -86,10 +110,6 @@ p {
 .logo a {
   color: #fff;
   text-decoration: none;
-}
-
-.profile > ul > li > a {
-  color: #dbd8d7;
 }
 
 .header {
@@ -108,4 +128,226 @@ p {
 
 .logo2 {
   padding: 20px 20px 20px 0;
+}
+
+.header2 {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  gap: 24px;
+}
+
+.ha {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 52px;
+  color: #1c1a19;
+  padding: 24px;
+  text-align: center;
+}
+
+.vector {
+  width: 327px;
+  border: 1px solid #212121;
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+.hb {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #091e42;
+}
+
+.hc {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+}
+
+.nx {
+  display: flex;
+  gap: 12px;
+  flex-direction: row;
+  list-style-type: none;
+  padding-left: 24px;
+}
+
+button {
+  width: 124px;
+  padding: 12px 12px;
+  color: #fff;
+  background: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  margin-left: 24px;
+}
+
+button:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+  border: o;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+  gap: 24px;
+  padding-bottom: 120px;
+  padding-left: 24px;
+}
+
+.name2 {
+  width: 327px;
+  height: 386px;
+  justify-content: flex-end;
+  background-image: url(./img2/Mask\ Group.png);
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hd {
+  width: 295px;
+  height: 81px;
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.he {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.ul {
+  display: flex;
+  padding-left: 24px;
+  gap: 8px;
+}
+
+.profile ul li a {
+  color: #dbd8d7;
+}
+
+.button2 {
+  width: 327px;
+  border-style: none;
+  margin-left: 0;
+}
+
+.header3 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 120px;
+  background: #1c1a19;
+}
+
+.smb {
+  background-image: url(./img/Icons/Groupy.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-x: 100%;
+  width: 375px;
+  height: 200px;
+}
+
+.hf {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+.button3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 161px;
+  height: 48px;
+  background: #ff6b00;
+}
+
+hr {
+  border: 1px solid #fff;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.bckimg {
+  display: flex;
+  justify-content: flex-end;
+  height: 258.17;
+}
+
+.list {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  color: #fff;
+}
+
+.l2 {
+  margin-bottom: 130px;
+}
+
+.bullet {
+  list-style-image: url(./img/Icons/Rectangle\ 55.png);
+}
+
+.bullet2 {
+  list-style-image: url(./img/Icons/Rectangle\ 56.png);
+}
+
+.bullet3 {
+  list-style-image: url(./img/Icons/Rectangle\ 57.png);
 }
