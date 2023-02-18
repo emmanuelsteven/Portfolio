@@ -11,9 +11,13 @@
 header {
   display: flex;
   background: #3c3a39;
+  align-items: center;
+  justify-content: space-between;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   overflow-x: hidden;
   max-width: 375px;
   margin: auto;
