@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto:wght@400;500;700;900&display=swap");
 
 * {
   padding: 0;
@@ -72,13 +72,37 @@ p {
   padding-right: 24px;
 }
 
-.profile > ul {
+.profile ul {
   display: inline-flex;
   padding: 30px 24px;
   gap: 12px;
 }
 
-.profile > ul > li {
+.nx li {
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #091e42;
+  list-style: none;
+}
+
+.ul li {
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 4px;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #fff;
+}
+
+.profile ul li {
   text-decoration: none;
   list-style: none;
 }
@@ -86,10 +110,6 @@ p {
 .logo a {
   color: #fff;
   text-decoration: none;
-}
-
-.profile > ul > li > a {
-  color: #dbd8d7;
 }
 
 .header {
@@ -120,7 +140,7 @@ p {
 .ha {
   width: 327px;
   height: 83px;
-  font-family: "Crete Round";
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
@@ -133,6 +153,7 @@ p {
   width: 327px;
   border: 1px solid #212121;
 }
+
 .cont {
   display: flex;
   flex-direction: column;
@@ -147,7 +168,7 @@ p {
 }
 
 .hb {
-  font-family: "Crete Round";
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -158,7 +179,7 @@ p {
 }
 
 .hc {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -174,23 +195,12 @@ p {
   padding-left: 24px;
 }
 
-.nx > li {
-  border: 1px solid #ccc;
-  padding: 8px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: #091e42;
-  list-style: none;
-}
-
 button {
   width: 124px;
   padding: 12px 12px;
   color: #fff;
   background: #ff6b00;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -203,6 +213,7 @@ button {
   gap: 24px;
   padding-bottom: 120px;
 }
+
 .name2 {
   width: 327px;
   height: 386px;
@@ -212,40 +223,34 @@ button {
   display: flex;
   flex-direction: column;
 }
+
 .hd {
   width: 295px;
   height: 81px;
-  font-family: "Crete Round";
+  font-family: "Crete Round", serif;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
   color: #fff;
 }
+
 .he {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13.5px;
   line-height: 30px;
   color: #fff;
 }
+
 .ul {
   display: flex;
   padding-left: 24px;
   gap: 8px;
 }
 
-.ul > li {
-  padding: 8px 12px;
-  background: rgba(255, 255, 255, 0.24);
-  border-radius: 4px;
-  list-style: none;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
-  color: #fff;
+.profile ul li a {
+  color: #dbd8d7;
 }
 
 .button2 {
@@ -260,11 +265,10 @@ button {
   gap: 24px;
   padding-top: 120px;
   background: #1c1a19;
-  /* padding-left: 24px; */
 }
 
 .hf {
-  font-family: "Crete Round";
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -284,17 +288,18 @@ button {
   background: #ff6b00;
 }
 
-hr{
-    border: 1px solid #fff;
-    margin-left: 24px;
-    margin-right: 24px;
-  }
-
-.bckimg{
-    display: flex;
-    justify-content: flex-end;
-    height: 258.17;
+hr {
+  border: 1px solid #fff;
+  margin-left: 24px;
+  margin-right: 24px;
 }
+
+.bckimg {
+  display: flex;
+  justify-content: flex-end;
+  height: 258.17;
+}
+
 .list {
   display: flex;
   gap: 8px;
@@ -305,9 +310,18 @@ hr{
   color: #fff;
 }
 
-.l2{
-    margin-bottom: 130px;
+.l2 {
+  margin-bottom: 130px;
 }
 
-  
- 
+.bullet {
+  list-style-image: url(./img/Icons/Rectangle\ 55.png);
+}
+
+.bullet2 {
+  list-style-image: url(./img/Icons/Rectangle\ 56.png);
+}
+
+.bullet3 {
+  list-style-image: url(./img/Icons/Rectangle\ 57.png);
+}
