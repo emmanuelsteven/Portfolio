@@ -93,11 +93,10 @@ Feel free to check the [issues page](../../issues/).
 
 1. Microverse Sucess Team
 2. My brother Victor 
-3. my coding partners from week-one
+3. my coding partner for week-two
 4. my coding friends;spencer okyere,and kingsley onele
 5. Lawrence Amoafo.
-A
-A
+6.  Yinka
 
 ## 📝 License 
 
