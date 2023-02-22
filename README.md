@@ -20,13 +20,19 @@
 
 # 📖 Portfolio-setup
 
-**[Portfolio-webpage]** is a simple HTML and CSS webpage design with flex from module 1  Microverse Project,in this project,I set up a new repository, there were no complex coding is required however the  goal was to master all of the tools and best practices learned about in previous steps.
+**[Portfolio-mobile]** is a simple HTML and CSS mobile version webpage designed with flex  and grid to enhance its responsiveness,from module 1  Microverse Project,in this project,I set up a new repository, there were no complex coding is required however the  goal was to master all of the tools and best practices learned about in previous steps.
 
 ## 🛠 Built With 
 1.HTML
 2.CSS
 
 ### Tech Stack  FrontEnd
+
+### Key Features 
+
+- **[There is a navigation bar at the heade section]**
+- **[the body having icons,buttons and other CSS styling ]**
+- **[It also has section where we had contact form and textarea comment box for fedbackse]**
 
 ## 🚀 Live Demo 
 
