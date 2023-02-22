@@ -20,13 +20,19 @@
 
 # 📖 Portfolio-setup
 
-**[Portfolio-webpage]** is a simple HTML and CSS webpage design with flex from module 1  Microverse Project,in this project,I set up a new repository, there were no complex coding is required however the  goal was to master all of the tools and best practices learned about in previous steps.
+**[Portfolio-mobile]** is a simple HTML and CSS mobile version webpage designed with flex  and grid to enhance its responsiveness,from module 1  Microverse Project,in this project,I set up a new repository, there were no complex coding is required however the  goal was to master all of the tools and best practices learned about in previous steps.
 
 ## 🛠 Built With 
 1.HTML
 2.CSS
 
 ### Tech Stack  FrontEnd
+
+### Key Features 
+
+- **[There is a navigation bar at the heade section]**
+- **[the body having icons,buttons and other CSS styling ]**
+- **[It also has section where we had contact form and textarea comment box for fedbackse]**
 
 ## 🚀 Live Demo 
 
@@ -75,6 +81,18 @@ To run tests, run the following command:
 - Twitter:[@CjayStev](https://twitter.com/CjayStev)
 - LinkedIn:[steven-emmanuel](https://www.linkedin.com/in/steven-emmanuel-75a03a141/)
 
+👤 **Author2**
+
+- GitHub: [samuel_lemma](https://github.com/sam2if)
+- Twitter: [samuel_lemma](https://twitter.com/samuellemma3733)
+- LinkedIn: [samuel_lemma](https://www.linkedin.com/in/samuel-lemma-7479b1214/)
+
+👤 **Sheldon**
+
+- GitHub: [@sheldon](https://github.com/githubhandle)
+- Twitter: [@sheldon](https://twitter.com/twitterhandle)
+- LinkedIn: [sheldon](https://linkedin.com/in/linkedinhandle)
+
 ## 🤝 Contributing 
 
 Contributions, issues, and feature requests are welcome!
@@ -87,9 +105,10 @@ Feel free to check the [issues page](../../issues/).
 
 1. Microverse Sucess Team
 2. My brother Victor 
-3. my coding partners from week-one
+3. my coding partner for week-two
 4. my coding friends;spencer okyere,and kingsley onele
 5. Lawrence Amoafo.
+6.  Yinka
 
 ## 📝 License 
 

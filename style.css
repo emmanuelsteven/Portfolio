@@ -102,6 +102,10 @@ p {
   color: #fff;
 }
 
+.footer li {
+  list-style-type: none;
+}
+
 .profile ul li {
   text-decoration: none;
   list-style: none;
@@ -195,9 +199,9 @@ p {
   padding-left: 24px;
 }
 
-button {
+.button1 {
   width: 124px;
-  padding: 12px 12px;
+  padding: 12px 5px;
   color: #fff;
   background: #ff6b00;
   font-family: "Inter", sans-serif;
@@ -205,6 +209,13 @@ button {
   font-weight: 700;
   font-size: 17px;
   margin-left: 24px;
+  border: none;
+}
+
+.button2 {
+  width: 327px;
+  border-style: none;
+  margin-left: 0;
 }
 
 button:active {
@@ -270,12 +281,6 @@ button:disabled {
   color: #dbd8d7;
 }
 
-.button2 {
-  width: 327px;
-  border-style: none;
-  margin-left: 0;
-}
-
 .header3 {
   display: flex;
   flex-direction: column;
@@ -301,17 +306,6 @@ button:disabled {
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-}
-
-.button3 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
-  width: 161px;
-  height: 48px;
-  background: #ff6b00;
 }
 
 hr {
@@ -350,4 +344,102 @@ hr {
 
 .bullet3 {
   list-style-image: url(./img/Icons/Rectangle\ 57.png);
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 120px;
+  margin-bottom: 30px;
+}
+
+.hg {
+  color: #172b4d;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.getcontact {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input {
+  padding: 10px 10px;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.input:placeholder {
+  color: #dbd8d7;
+}
+
+.textarea {
+  padding: 10px 10px;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  color: #3c3a39;
+  background-color: #fbf8f7;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.button-final {
+  width: 124px;
+  padding: 12px 5px;
+  color: #fff;
+  background: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  margin: auto;
+  border: none;
+}
+
+.button-final:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.button-first {
+  width: 150px;
+  padding: 12px 5px;
+  color: #fff;
+  background: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  margin-left: 24px;
+  border: none;
+}
+
+.footer {
+  padding: 20px 20px;
+  border-top: 1px solid #dfe1e6;
+}
+
+.footer ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.hr-line {
+  width: 50%;
+  margin: auto;
+  border: 3px solid #000;
 }
