@@ -192,18 +192,14 @@
           </ul>
         </div>
       </section>
-      <!-- form -->
       <section class="contacts">
         <p class="hg">
           I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
         </p>
-        <form action="" class="getcontact">
-              <!-- <label for="name" class="name"></label> -->
-              <input class="input"  type="text" name="name" placeholder="Full name" required/>
-              <!-- <label for="mail" class="mail"></label> -->
-              <input  class="input" type="email" name="email" placeholder="Email address" required>
-              <!-- <label for="msg"></label> -->
-              <textarea cols="30" rows="10" class="textarea" name="message" placeholder="Enter text here" required></textarea>
+        <form action="https://formspree.io/f/xayzolrz" class="getcontact" method="post">
+              <input class="input"  type="text" name="name" placeholder="Full name" maxlength="30" required/>
+              <input  class="input" type="email" name="email" placeholder="Email address"  maxlength="30"required>
+              <textarea cols="30" rows="10" class="textarea" name="message" placeholder="Enter text here" maxlength="500" required></textarea>
           <button class="button-final">
             Get in touch
           </button>
@@ -218,7 +214,7 @@
             /></a>
           </li>
           <a href="https://www.linkedin.com/in/steven-emmanuel-75a03a141/"
-          ><img src="img/Icons/linkedin2.png" alt=""/></a> </li>
+          ><img src="img/Icons/linkedin2.png" alt="" /></a> </li>
           <li>
             <a href="http:///www.instagram.com/cjaystev22/"
               ><img src="img/Icons/Vector2.png" alt=""

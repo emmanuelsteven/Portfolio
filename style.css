@@ -377,6 +377,8 @@ hr {
   padding: 10px 10px;
   border: none;
   border-bottom: 1px solid #dbd8d7;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .input:placeholder {
@@ -389,6 +391,8 @@ hr {
   border-bottom: 1px solid #dbd8d7;
   color: #3c3a39;
   background-color: #fbf8f7;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .button-final {
@@ -402,6 +406,11 @@ hr {
   font-size: 17px;
   margin: auto;
   border: none;
+}
+
+.button-final:active {
+  background-color: #e05304;
+  color: #f4f1f0;
 }
 
 .button-first {
