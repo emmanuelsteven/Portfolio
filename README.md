@@ -87,6 +87,12 @@ To run tests, run the following command:
 - Twitter: [samuel_lemma](https://twitter.com/samuellemma3733)
 - LinkedIn: [samuel_lemma](https://www.linkedin.com/in/samuel-lemma-7479b1214/)
 
+👤 **Sheldon**
+
+- GitHub: [@sheldon](https://github.com/githubhandle)
+- Twitter: [@sheldon](https://twitter.com/twitterhandle)
+- LinkedIn: [sheldon](https://linkedin.com/in/linkedinhandle)
+
 ## 🤝 Contributing 
 
 Contributions, issues, and feature requests are welcome!
