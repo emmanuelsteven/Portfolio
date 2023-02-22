@@ -75,6 +75,12 @@ To run tests, run the following command:
 - Twitter:[@CjayStev](https://twitter.com/CjayStev)
 - LinkedIn:[steven-emmanuel](https://www.linkedin.com/in/steven-emmanuel-75a03a141/)
 
+👤 **Author2**
+
+- GitHub: [samuel_lemma](https://github.com/sam2if)
+- Twitter: [samuel_lemma](https://twitter.com/samuellemma3733)
+- LinkedIn: [samuel_lemma](https://www.linkedin.com/in/samuel-lemma-7479b1214/)
+
 ## 🤝 Contributing 
 
 Contributions, issues, and feature requests are welcome!
@@ -90,6 +96,8 @@ Feel free to check the [issues page](../../issues/).
 3. my coding partners from week-one
 4. my coding friends;spencer okyere,and kingsley onele
 5. Lawrence Amoafo.
+A
+A
 
 ## 📝 License 
 
