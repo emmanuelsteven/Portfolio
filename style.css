@@ -44,6 +44,7 @@ body {
   text-decoration: none;
   color: #fff;
   margin-left: 150px;
+  transition: all 0.5s ease-out;
 }
 
 #navy-ul {
@@ -51,6 +52,7 @@ body {
   align-items: center;
   gap: 30px;
   margin-right: 150px;
+  transition: all 0.5s ease-out;
 }
 
 .links-nav {
