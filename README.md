@@ -36,7 +36,7 @@
 
 ## 🚀 Live Demo 
 
-- [Live Demo Link](http://127.0.0.1:5504/index.html)
+- [Live Demo Link]( https://emmanuelsteven.github.io/Portfolio/)
 
 ## 💻 Getting Started 
  
