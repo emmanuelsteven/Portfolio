@@ -44,6 +44,7 @@ body {
   text-decoration: none;
   color: #fff;
   margin-left: 150px;
+  transition: all 0.5s ease-out;
 }
 
 #navy-ul {
@@ -51,6 +52,13 @@ body {
   align-items: center;
   gap: 30px;
   margin-right: 150px;
+  transition: all 0.5s ease-out;
+}
+
+a:hover,
+a:focus {
+  background-color: #fff;
+  color: #333;
 }
 
 .links-nav {
@@ -60,6 +68,8 @@ body {
   line-height: 20px;
   text-decoration: none;
   color: #fff;
+  transition: all 0.5s ease-out;
+  bottom: 1px solid;
 }
 
 li {
