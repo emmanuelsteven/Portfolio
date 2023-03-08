@@ -550,7 +550,7 @@ button:disabled {
   color: #fff;
   border: none;
   font-size: 17px;
-  margin-top: 4px;
+  margin-top: 28px;
 }
 
 .card1 button:active {
@@ -690,13 +690,6 @@ button:disabled {
     color: #f4f5f7;
     padding-top: 24px;
     margin-left: -240px;
-  }
-
-  .profile-text p {
-    font-size: 1.25;
-    line-height: 32px;
-    color: #f4f5f7;
-    padding-top: 1.5;
   }
 
   .header3 p {
@@ -898,6 +891,7 @@ button:disabled {
     gap: 5px;
     margin-top: -12px;
   }
+
   .chips {
     display: flex;
     flex-direction: column;
