@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stevencorp Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+
 </head>
 
 <body>
@@ -14,6 +15,15 @@
         <header id="header">
             <div class="logo-nav"><a href="#">Stevencorp</a></div>
             <nav class="nav-bar">
+                <div class="nav-container">
+                    <ul id="navy-ul">
+                        <li class="list"><a class="links-nav" href="#port">Portfolio</a></li>
+                        <li class="list"><a class="links-nav" href="#about-section">About</a></li>
+                        <li class="list"><a class="links-nav" href="#contact-area">Contact</a></li>
+                        <li><a href="#"><img src="./img/Icons/enve.png" alt="" class="env"></a></li>
+                    </ul>
+                    <a type="button" class="menu-x"> &#x2716</a>
+                </div>
                 <ul id="navy-ul">
                     <li><a class="links-nav" href="#">Portfolio</a></li>
                     <li><a class="links-nav" href="#">About</a></li>
@@ -75,25 +85,27 @@
                     </li>
                 </ul>
             </div>
-            <div class="name">
-                <img src="img/Icons/Img Placeholder (4).png" alt="gymfit-image" />
-                <div class="cont">
-                    <h2 class="hb">Multi-Post Stories</h2>
-                    <p class="hc">
-                        A daily selection of privately personalized reads; no accounts or
-                        sign-ups required. has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a standard
-                        dummy text.
-                    </p>
-                    <ul class="nx">
-                        <li>css</li>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button class="button1">see project</button>
+            <div id="port" class="name">
+                <img src="img/Icons/Img Placeholder (4).png" alt="" />
+                <div class="name">
+                    <img src="img/Icons/Img Placeholder (4).png" alt="gymfit-image" />
+                    <div class="cont">
+                        <h2 class="hb">Multi-Post Stories</h2>
+                        <p class="hc">
+                            A daily selection of privately personalized reads; no accounts or
+                            sign-ups required. has been the industry's standard dummy text
+                            ever since the 1500s, when an unknown printer took a standard
+                            dummy text.
+                        </p>
+                        <ul class="nx">
+                            <li>css</li>
+                            <li>html</li>
+                            <li>bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                        <button type="button" class="button1">see project</button>
+                    </div>
                 </div>
-            </div>
         </section>
         <section class="project-cards">
             <div class="card1">
@@ -107,7 +119,7 @@
                         <li>bootstrap</li>
                         <li>Ruby</li>
                     </ul>
-                    <button>See Project</button>
+                    <button type="button">See Project</button>
                 </div>
             </div>
             <div class="card2">
@@ -121,7 +133,7 @@
                         <li>bootstrap</li>
                         <li>Ruby</li>
                     </ul>
-                    <button class="hidden">See Project</button>
+                    <button type="button" class="hidden">See Project</button>
                 </div>
             </div>
             <div class="card3">
@@ -135,7 +147,7 @@
                         <li>bootstrap</li>
                         <li>Ruby</li>
                     </ul>
-                    <button class="hidden">See Project</button>
+                    <button type="button" class="hidden">See Project</button>
                 </div>
             </div>
             <div class="card4">
@@ -149,7 +161,7 @@
                         <li>bootstrap</li>
                         <li>Ruby</li>
                     </ul>
-                    <button class="hidden">See Project</button>
+                    <button type="button" class="hidden">See Project</button>
                 </div>
             </div>
             <div class="card2">
@@ -163,7 +175,7 @@
                         <li>bootstrap</li>
                         <li>Ruby</li>
                     </ul>
-                    <button class="hidden">See Project</button>
+                    <button type="button" class="hidden">See Project</button>
                 </div>
             </div>
             <div class="card3">
@@ -177,7 +189,7 @@
                         <li>bootstrap</li>
                         <li>Ruby</li>
                     </ul>
-                    <button class="hidden">See Project</button>
+                    <button type="button" class="hidden">See Project</button>
                 </div>
             </div>
         </section>
@@ -191,9 +203,9 @@
                     experience! If you like what you see and have a project you need coded, don’t hesitate to contact
                     me.
                 </p>
-                <button class="button-first">Get My Resume</button>
+                <button type="button" class="button-first">Get My Resume</button>
             </div>
-            <hr id="hr-abt"/>
+            <hr id="hr-abt" />
             <div class="prog">
 
                 <ul class="list">
@@ -240,7 +252,7 @@
                     <input class="input" type="email" name="email" placeholder="Email address" required>
                     <textarea cols="30" rows="10" class="textarea" name="message" placeholder="Enter text here"
                         maxlength="500" required></textarea>
-                    <button class="button-final">
+                    <button type="button" class="button-final">
                         Get in touch
                     </button>
                 </form>
@@ -269,6 +281,8 @@
         </section>
         </main>
     </div>
+    <script src="./dom.js"></script>
+
 </body>
 
 </html>

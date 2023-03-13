@@ -51,8 +51,9 @@ body {
   display: flex;
   align-items: center;
   gap: 30px;
-  margin-right: 150px;
+  margin-right: 125px;
   transition: all 0.5s ease-out;
+  visibility: visible;
 }
 
 a:hover,
@@ -69,7 +70,7 @@ a:focus {
   text-decoration: none;
   color: #fff;
   transition: all 0.5s ease-out;
-  bottom: 1px solid;
+  bottom: 1px;
 }
 
 li {
@@ -82,6 +83,10 @@ li {
 
 .logo2-nav {
   display: none;
+}
+
+.menu-x {
+  visibility: hidden;
 }
 
 .profile {
@@ -129,8 +134,8 @@ li {
 .profile-text h1 {
   font-family: "Crete Round", serif;
   font-style: normal;
-  font-weight: 400px;
-  font-size: 4.5em;
+  font-weight: 400;
+  font-size: 72px;
   line-height: 82px;
   color: #f55800;
   margin-left: 143px;
@@ -152,7 +157,7 @@ li {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.25;
+  font-size: 24px;
   height: 40px;
   margin-left: 143px;
   color: #f4f5f7;
@@ -351,8 +356,6 @@ li {
   flex-direction: column;
   list-style: none;
   color: #fff;
-  margin-left: 143px;
-  margin-right: 143px;
 }
 
 .list li {
@@ -587,7 +590,43 @@ button:disabled {
   }
 
   #navy-ul {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    right: 68px;
+    background: #3c3a39;
+    width: 100%;
+    padding-top: 10%;
+    visibility: hidden;
+  }
+
+  .links-nav {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    transition: all 0.5s ease-out;
+    bottom: 1px;
+    width: 100%;
+    display: flex;
+  }
+
+  .logo-nav a {
+    padding-left: 40%;
+    margin: 0;
+  }
+
+  #navy-ul a {
+    border-bottom: 2px solid #6f6c6b;
+  }
+
+  .menu-x {
+    visibility: hidden;
+    position: absolute;
+    right: 5%;
   }
 
   .logo-nav {
@@ -615,10 +654,10 @@ button:disabled {
     background-image: url(./img2/Group.png);
     background-repeat: no-repeat;
     background-position-x: right;
-    background-size: 40%;
+    background-size: 30%;
     background-position-y: bottom;
     margin: 0;
-    padding: 40px 24px;
+    padding: 25px 0;
   }
 
   .project-cards {
@@ -639,6 +678,7 @@ button:disabled {
   }
 
   .profile-text {
+    width: 100%;
     margin: 0;
     align-items: center;
     display: flex;
@@ -649,7 +689,8 @@ button:disabled {
     display: flex;
     flex-direction: row;
     justify-content: start;
-    gap: 10px;
+    gap: 20px;
+    padding-top: 554px;
     padding-top: 600px;
   }
 
@@ -661,7 +702,7 @@ button:disabled {
   .profile-text h1 {
     font-family: "Crete Round", serif;
     font-style: normal;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 3.5em;
     line-height: 82px;
     color: #f55800;
@@ -670,6 +711,15 @@ button:disabled {
     height: 124px;
     width: 327px;
     padding-top: 120px;
+  }
+
+  .hc {
+    font-size: 18px;
+    line-height: 28px;
+    color: #091e42;
+    width: 100%;
+    padding-left: 24px;
+    margin-top: 16px;
   }
 
   .profile-text h2 {
@@ -686,10 +736,8 @@ button:disabled {
     font-style: normal;
     font-weight: 400;
     font-size: 1em;
-    line-height: 16px;
-    color: #f4f5f7;
-    padding-top: 24px;
     margin-left: -240px;
+    padding-top: 24px;
   }
 
   .header3 p {
@@ -728,6 +776,10 @@ button:disabled {
 
   .hidden {
     visibility: visible;
+  }
+
+  .env {
+    display: none;
   }
 
   #about-section {
@@ -789,6 +841,8 @@ button:disabled {
     color: #fff;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    padding: 5%;
   }
 
   .forms {
@@ -908,10 +962,40 @@ button:disabled {
     margin: auto;
   }
 
-  .hc {
-    font-size: 16px;
-    line-height: 24px;
-    width: auto;
-    height: 147px;
+  @media screen and (max-width: 450px) {
+    .card1 {
+      width: auto;
+      height: 400px;
+    }
+
+    .card2 {
+      width: auto;
+      height: 400px;
+    }
+
+    .card3 {
+      width: auto;
+      height: 400px;
+    }
+
+    .card4 {
+      width: auto;
+      height: 400px;
+    }
+
+    .button-first {
+      width: 9em;
+      padding: 9px 5px;
+      font-weight: 700;
+      font-size: 0.8em;
+      margin-top: 50px;
+    }
+
+    .hc {
+      font-size: 16px;
+      line-height: 24px;
+      width: auto;
+      height: 147px;
+    }
   }
 }
