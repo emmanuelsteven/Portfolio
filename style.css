@@ -724,6 +724,15 @@ right: 5%;
     width: 327px;
   }
 
+  .hc {
+    font-size: 18px;
+    line-height: 28px;
+    color: #091e42;
+    width: 100%;
+    padding-left: 24px;
+    margin-top: 16px;
+  }
+
   .profile-text h2 {
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -776,7 +785,7 @@ right: 5%;
   }
 
   .hr1 {
-    width: 500px;
+    width: 300px;
     border: 1px solid #212121;
   }
 
@@ -819,6 +828,7 @@ right: 5%;
 
   .button-first {
     margin-top: 20px;
+
   }
 
   .hf {
@@ -980,7 +990,7 @@ right: 5%;
       height: 400px;
     }
     .button-first {
-      width:7em;
+      width:9em;
       padding: 9px 5px;
       font-weight: 700;
       font-size: .8em;
