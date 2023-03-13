@@ -69,7 +69,7 @@ a:focus {
   text-decoration: none;
   color: #fff;
   transition: all 0.5s ease-out;
-  bottom: 1px solid;
+  bottom: 1px;
 }
 
 li {
@@ -82,6 +82,9 @@ li {
 
 .logo2-nav {
   display: none;
+}
+.menu-x{
+  visibility: hidden;
 }
 
 .profile {
@@ -129,8 +132,8 @@ li {
 .profile-text h1 {
   font-family: "Crete Round", serif;
   font-style: normal;
-  font-weight: 400px;
-  font-size: 4.5em;
+  font-weight: 400;
+  font-size: 72px;
   line-height: 82px;
   color: #f55800;
   margin-left: 143px;
@@ -152,7 +155,7 @@ li {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.25;
+  font-size: 24px;
   height: 40px;
   margin-left: 143px;
   color: #f4f5f7;
@@ -589,8 +592,50 @@ button:disabled {
   }
 
   #navy-ul {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    left: 0px;
+    right: 68px;
+    /* top: calc(50% - 24px/2); */
+    background: #3C3A39;
+    /* width: 100%; */
+    /* padding-top: 10%; */
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+  /* padding: 10%; */
+  visibility: hidden;
   }
+
+  .links-nav {
+    font-family: "Inter", sans-serif;
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    transition: all 0.5s ease-out;
+    bottom: 1px;
+    padding-top: 30%;
+width: 100%;
+  }
+  #navy-ul a {
+border-bottom: 2px solid #6F6C6B ;
+border-bottom-width: 100%;
+
+
+
+  }
+
+  .menu-x{
+    visibility: hidden;
+position: absolute;  
+right: 5%;
+
+  }
+
+
 
   .logo-nav {
     width: 20%;
@@ -617,10 +662,10 @@ button:disabled {
     background-image: url(./img2/Group.png);
     background-repeat: no-repeat;
     background-position-x: right;
-    background-size: 40%;
+    background-size: 30%;
     background-position-y: bottom;
     margin: 0;
-    padding: 40px 24px;
+    padding: 25px 0;
   }
 
   .project-cards {
@@ -643,7 +688,7 @@ button:disabled {
     display: flex;
     flex-direction: row;
     justify-content: start;
-    gap: 40px;
+    gap: 20px;
     padding-top: 620px;
   }
 
@@ -655,7 +700,7 @@ button:disabled {
   .profile-text h1 {
     font-family: "Crete Round", serif;
     font-style: normal;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 3.5em;
     line-height: 82px;
     color: #f55800;
@@ -680,7 +725,7 @@ button:disabled {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1em;
+    font-size: .2em;
     line-height: 32px;
     margin-left: 0;
     color: #f4f5f7;
@@ -688,10 +733,15 @@ button:disabled {
   }
 
   .profile-text p {
-    font-size: 1.25;
+    font-size: 16px;
     line-height: 32px;
     color: #f4f5f7;
-    padding-top: 1.5;
+    padding-top: 1.5em;
+    width: 327px;
+    /* padding-left: 0%; */
+    /* padding-right: 16px; */
+    /* margin-right: -10px; */
+
   }
 
   .header3 p {
@@ -730,8 +780,11 @@ button:disabled {
 
   .hidden {
     visibility: visible;
-  }
 
+  }
+.env{
+  display: none;
+}
   #about-section {
     background: #1c1a19;
   }
@@ -818,6 +871,7 @@ button:disabled {
     display: none;
   }
 
+
   .card1 {
     background-image: url(./img/Icons/fourth.png);
   }
@@ -892,5 +946,32 @@ button:disabled {
     width: 500px;
     border: 1px solid #212121;
     margin: auto;
+  }
+
+  @media screen and (max-width: 450px) {
+    .card1{
+      width: auto;
+      height: 400px;
+    }
+    .card2{
+      width: auto;
+      height: 400px;
+    }
+    .card3{
+      width: auto;
+      height: 400px;
+    }
+    .card4{
+      width: auto;
+      height: 400px;
+    }
+    .button-first {
+      width:7em;
+      padding: 9px 5px;
+      font-weight: 700;
+      font-size: .8em;
+      margin-top: 50px;
+    }
+   
   }
 }

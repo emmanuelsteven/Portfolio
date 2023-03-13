@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio-Desktop</title>
     <link rel="stylesheet" href="style.css" />
+
 </head>
 
 <body>
@@ -14,12 +15,15 @@
         <header id="header">
             <div class="logo-nav"><a href="#">Stevencorp</a></div>
             <nav class="nav-bar">
-                <ul id="navy-ul">
-                    <li><a class="links-nav" href="#">Portfolio</a></li>
-                    <li><a class="links-nav" href="#">About</a></li>
-                    <li><a class="links-nav" href="#">Contact</a></li>
-                    <li><a href="#"><img src="./img/Icons/enve.png" alt=""></a></li>
-                </ul>
+                <div class="nav-container">
+                    <ul id="navy-ul">
+                        <li><a class="links-nav" href="#">Portfolio</a></li>
+                        <li><a class="links-nav" href="#">About</a></li>
+                        <li><a class="links-nav" href="#">Contact</a></li>
+                        <li><a href="#"><img src="./img/Icons/enve.png" alt="" class="env"></a></li>  
+                    </ul>
+                    <a type="button" class="menu-x"> &#x2716</a>
+                </div>
                 <div class="vet-parents">
                     <div class="vet"></div>
                     <div class="vet"></div>
@@ -269,6 +273,8 @@
         </section>
         </main>
     </div>
+ <script src="./dom.js"></script>
+
 </body>
 
 </html>
