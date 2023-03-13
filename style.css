@@ -471,14 +471,10 @@ button:disabled {
 }
 
 .card1 {
-  background-image: url(./img/Icons/first.png);
   height: 500px;
+  background-image: url(./img/Icons/first.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  vertical-align: bottom;
 }
 
 .card2 {
@@ -519,8 +515,7 @@ button:disabled {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  position: absolute;
-  bottom: 0;
+  position: relative;
 }
 
 .chips h3 {
@@ -531,6 +526,7 @@ button:disabled {
   line-height: 44px;
   color: #fff;
   padding-left: 10px;
+  margin-top: 120px;
 }
 
 .chips p {
@@ -548,14 +544,16 @@ button:disabled {
   flex-direction: row;
   gap: 25px;
   justify-content: center;
+  margin-top: 60px;
 }
 
 .card1 button {
-  height: 50px;
+  height: 58px;
   background-color: #f55800;
   color: #fff;
   border: none;
   font-size: 17px;
+  margin-top: 28px;
 }
 
 .card1 button:active {
@@ -665,15 +663,26 @@ button:disabled {
   .project-cards {
     display: flex;
     flex-direction: column;
+    margin-right: 50px;
+    width: auto;
   }
 
   .card {
     width: 100%;
   }
 
+  .card-ul {
+    visibility: visible;
+    gap: 5px;
+    margin-top: 5px;
+  }
+
   .profile-text {
     width: 100%;
     margin: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .aside {
@@ -682,6 +691,8 @@ button:disabled {
     justify-content: start;
     gap: 20px;
     padding-top: 554px;
+    gap: 10px;
+    padding-top: 600px;
   }
 
   .aside li {
@@ -696,10 +707,11 @@ button:disabled {
     font-size: 3.5em;
     line-height: 82px;
     color: #f55800;
-    margin-left: 0;
+    margin-left: -240px;
     padding-bottom: 24px;
-    height: 160px;
+    height: 124px;
     width: 327px;
+    padding-top: 120px;
   }
 
   .hc {
@@ -712,17 +724,15 @@ button:disabled {
   }
 
   .profile-text h2 {
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 500;
     font-size: 1.5em;
-    margin-left: 0;
+    margin-left: -240px;
     width: 327px;
-    padding-top: 160px;
+    padding-top: 140px;
+    color: #fff5e1;
   }
 
-  .profile p {
-    width: 20.5em;
+  .profile-text p {
+    width: 327px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -739,6 +749,11 @@ button:disabled {
     color: #f4f5f7;
     padding-top: 1.5em;
     width: 327px;
+    font-size: 1em;
+    line-height: 16px;
+    color: #f4f5f7;
+    padding-top: 24px;
+    margin-left: -240px;
   }
 
   .header3 p {
@@ -802,7 +817,12 @@ button:disabled {
   }
 
   .button-first {
-    margin-top: 20px;
+    margin-top: 80px;
+    width: 8.5em;
+    font-size: 17px;
+    border: none;
+    height: 1.5em;
+    padding: 0;
   }
 
   .hf {
@@ -873,6 +893,11 @@ button:disabled {
 
   .card1 {
     background-image: url(./img/Icons/fourth.png);
+    width: auto;
+  }
+
+  .card4 {
+    background-image: url(./img/Icons/fourth.png);
   }
 
   .card2 {
@@ -883,17 +908,10 @@ button:disabled {
     background-image: url(./img/Icons/fourth.png);
   }
 
-  .button1 {
-    width: 124px;
-    padding: 12px 5px;
-    color: #fff;
-    background: #ff6b00;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 700;
+  .card1 button {
+    height: 48px;
     font-size: 17px;
-    margin-left: 24px;
-    border: none;
+    margin-top: 100px;
   }
 
   .card2 button {
@@ -901,6 +919,8 @@ button:disabled {
     background-color: #f55800;
     color: #fff;
     border: none;
+    margin-top: 100px;
+    font-size: 17px;
   }
 
   .card3 button {
@@ -908,6 +928,8 @@ button:disabled {
     background-color: #f55800;
     color: #fff;
     border: none;
+    margin-top: 100px;
+    font-size: 17px;
   }
 
   .card4 button {
@@ -915,6 +937,8 @@ button:disabled {
     background-color: #f55800;
     color: #fff;
     border: none;
+    margin-top: 100px;
+    font-size: 17px;
   }
 
   button:disabled {
@@ -935,10 +959,17 @@ button:disabled {
   .chips p {
     font-size: 16px;
     gap: 5px;
+    margin-top: -12px;
+  }
+
+  .chips {
+    display: flex;
+    flex-direction: column;
   }
 
   .chips h3 {
     font-size: 32px;
+    margin-top: 100px;
   }
 
   hr {
@@ -975,5 +1006,11 @@ button:disabled {
       font-size: 0.8em;
       margin-top: 50px;
     }
+    
+  .hc {
+    font-size: 16px;
+    line-height: 24px;
+    width: auto;
+    height: 147px;
   }
 }
