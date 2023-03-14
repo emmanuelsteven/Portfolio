@@ -16,6 +16,7 @@ body {
   padding: 0;
 }
 
+
 body {
   color: #fff;
   overflow-x: hidden;
@@ -51,7 +52,7 @@ body {
   display: flex;
   align-items: center;
   gap: 30px;
-  margin-right: 150px;
+  margin-right: 125px;
   transition: all 0.5s ease-out;
 }
 
@@ -289,6 +290,7 @@ li {
   padding: 20px 10px;
 }
 
+
 .header3 {
   display: flex;
   flex-direction: column;
@@ -348,14 +350,18 @@ li {
   width: 80%;
 }
 
+#navy-ul {
+  visibility: visible;
+}
+
 .list {
   display: flex;
   gap: 12px;
   flex-direction: column;
   list-style: none;
   color: #fff;
-  margin-left: 143px;
-  margin-right: 143px;
+  /* margin-left: 143px;
+  margin-right: 143px; */
 }
 
 .list li {
@@ -600,12 +606,17 @@ button:disabled {
     right: 68px;
     /* top: calc(50% - 24px/2); */
     background: #3C3A39;
-    /* width: 100%; */
-    /* padding-top: 10%; */
+    width: 100%;
+    padding-top: 10%;
     /* justify-content: flex-start; */
     /* align-items: flex-start; */
   /* padding: 10%; */
   visibility: hidden;
+  }
+
+  .list {
+    width: 100%;
+    padding: 5%;
   }
 
   .links-nav {
@@ -617,15 +628,13 @@ button:disabled {
     color: #fff;
     transition: all 0.5s ease-out;
     bottom: 1px;
-    padding-top: 30%;
-width: 100%;
+    /* padding-top: 30%; */
+    width: 100%;
+    display: flex;
   }
   #navy-ul a {
-border-bottom: 2px solid #6F6C6B ;
-border-bottom-width: 100%;
-
-
-
+  border-bottom: 2px solid #6F6C6B ;
+  border-bottom-width: 100%;
   }
 
   .menu-x{
@@ -642,6 +651,11 @@ right: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .logo-nav a {
+    padding-left: 40%;
+    margin: 0;
   }
 
   .vet-parents {
@@ -678,9 +692,9 @@ right: 5%;
   }
 
   .profile-text {
-    grid-row-start: 1;
+    /* grid-row-start: 1; */
     width: 100%;
-    padding: 60px 50px 0 50px;
+    /* padding: 60px 50px 0 50px; */
     margin: 0;
   }
 
@@ -689,7 +703,7 @@ right: 5%;
     flex-direction: row;
     justify-content: start;
     gap: 20px;
-    padding-top: 620px;
+    padding-top: 554px;
   }
 
   .aside li {
