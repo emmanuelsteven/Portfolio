@@ -1,18 +1,8 @@
-// const vet-parents = document.querySelector('.vet-parents');
-// const #navy-ul = document.querySelector('#navy-ul');
 
-// vet-parents.addEventListener('click', () => {
-//   vet-parents.classList.toggle('active');
-//   navy-ul.classList.toggle('active');
-// });
-
-// document.querySelectorAll('ul #navy-ul> li').forEach((n) => n.addEventListener('click', () => {
-//   vet-parents.classList.remove('active');
-//   navy-ul.classList.remove('active');
-// }));
- const navyul= document.querySelector('#navy-ul');
+const navyul= document.querySelector('#navy-ul');
 const vet = document.querySelector('.vet-parents');
 const menux = document.querySelector('.menu-x');
+const lists = document.querySelectorAll('.links-nav');
 
 function openLink() { 
     navyul.setAttribute('style', 'visibility:visible');
@@ -27,3 +17,8 @@ function menubtn(){
 
 }
 menux.addEventListener('click', menubtn)
+
+function listFunc() {
+    lists.forEach((list) => list.addEventListener('click', menubtn));
+}
+listFunc();
