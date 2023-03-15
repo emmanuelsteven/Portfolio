@@ -464,8 +464,8 @@ button:disabled {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 10px;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -487,6 +487,24 @@ button:disabled {
   flex-direction: column;
   vertical-align: bottom;
 }
+.card2:hover{
+  background-image: url(./img/Icons/first.png);
+  display: block;
+}
+.card2:hover .chips{
+  display: none;
+}
+.card2:hover button.cardbtn{
+  display: block;
+  height: 58px;
+  background-color: #f55800;
+  color: #fff;
+  border: none;
+  font-size: 17px;
+  margin-top: 442px;
+  width:100%;
+}
+
 
 .card3 {
   background-image: url(./img/Icons/third.png);
@@ -497,9 +515,27 @@ button:disabled {
   display: flex;
   flex-direction: column;
   vertical-align: bottom;
+} 
+.card3:hover{
+  background-image: url(./img/Icons/first.png);
+  display: block;
 }
 
-.card4 {
+.card3:hover .chips{
+  display: none;
+}
+.card3:hover button.cardbtn{
+  display: block;
+  height: 58px;
+  background-color: #f55800;
+  color: #fff;
+  border: none;
+  font-size: 17px;
+  margin-top: 442px;
+  width:100%;
+}
+
+ .card4 {
   background-image: url(./img/Icons/fourth.png);
   height: 500px;
   background-repeat: no-repeat;
@@ -508,13 +544,31 @@ button:disabled {
   display: flex;
   flex-direction: column;
   vertical-align: bottom;
+
+} 
+.card4:hover{
+  background-image: url(./img/Icons/first.png);
+  display: block;
+}
+.card4:hover .chips{
+  display: none;
+}
+.card4:hover button.cardbtn{
+  display: block;
+  height: 58px;
+  background-color: #f55800;
+  color: #fff;
+  border: none;
+  font-size: 17px;
+  margin-top: 442px;
+  width:100%;
 }
 
 .chips {
-  padding: 0 0;
+  /* padding: 0 0; */
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   position: relative;
 }
 
@@ -547,13 +601,14 @@ button:disabled {
   margin-top: 60px;
 }
 
-.card1 button {
+.cardbtn{
   height: 58px;
   background-color: #f55800;
   color: #fff;
   border: none;
   font-size: 17px;
   margin-top: 28px;
+  display: none;
 }
 
 .card1 button:active {
@@ -570,6 +625,122 @@ button:disabled {
   visibility: hidden;
 }
 
+.modalcontainer {
+  position: fixed;
+  top: 10%;
+  background-color: #fff;
+  height: 631px;
+  width: 1156px;
+  visibility: hidden;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  position: fixed;
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.bg-modal {
+  padding: 0 20px;
+  width: 659px;
+  height: 448px;
+}
+
+.modalflex {
+  display: flex;
+}
+
+.title {
+  width: 100%;
+  height: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  padding-left: 20px;
+}
+
+.titleclose {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-ul {
+  display: flex;
+  gap: 2%;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.modal-ul li {
+  color: #091e42;
+  border: 1px solid #5b5957;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.tech1 {
+  width: 55px;
+  height: 36px;
+}
+
+.tech2 {
+  width: 90px;
+  height: 36px;
+}
+
+.tech3 {
+  width: 109px;
+  height: 36px;
+}
+
+.modalbtn {
+  color: #1c1a19;
+  font-size: 40px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.modaldescript {
+  font-size: 1em;
+  line-height: 1.8em;
+  padding-bottom: 10px;
+  color: #344563;
+  width: 424px;
+  height: 336px;
+  margin-bottom: 18%;
+}
+
+.livebtn {
+  height: 100px;
+  padding: 10px 10px;
+  color: #fff;
+  background: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.livebtn:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
 @media screen and (max-width: 768px) {
   #fullwrap {
     display: flex;
@@ -580,6 +751,20 @@ button:disabled {
   #fullwrap > * {
     order: 999;
   }
+
+  .card3:hover button.cardbtn{
+    margin-top: 105%;
+    height: 48px;
+  }
+  .card2:hover button.cardbtn{
+    margin-top: 105%;
+    height: 48px;
+  }
+  .card4:hover button.cardbtn{
+    margin-top: 100%;
+    height: 48px;
+  }
+
 
   #header {
     display: flex;
@@ -665,6 +850,7 @@ button:disabled {
     flex-direction: column;
     margin-right: 50px;
     width: auto;
+    
   }
 
   .card {
@@ -877,19 +1063,23 @@ button:disabled {
 
   .card1 {
     background-image: url(./img/Icons/fourth.png);
-    width: auto;
+    /* width: auto; */
+    height: 100%;
   }
 
   .card4 {
     background-image: url(./img/Icons/fourth.png);
+    height: 100%;
   }
 
   .card2 {
     background-image: url(./img/Icons/fourth.png);
+    height: 100%;
   }
 
   .card3 {
     background-image: url(./img/Icons/fourth.png);
+    height: 100%;
   }
 
   .card1 button {
@@ -949,6 +1139,7 @@ button:disabled {
   .chips {
     display: flex;
     flex-direction: column;
+
   }
 
   .chips h3 {
@@ -961,7 +1152,96 @@ button:disabled {
     border: 1px solid #212121;
     margin: auto;
   }
+  .overlay {
+    top: 0;
+    position: fixed;
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modalcontainer {
+    position: fixed;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 50em;
+    left: 9%;
+    top: 12%;
+    padding: 5px;
+    gap: 10px;
+  }
 
+  .bg-modal {
+    height: auto;
+    width: 100%;
+  }
+  .modal-ul {
+    display: flex;
+    gap: 2%;
+  }
+  .modal-ul li {
+    color: #091e42;
+    border: 1px solid #5b5957;
+    padding: 0.5em;
+    text-align: center;
+  }
+
+  .tech1 {
+    width: 55px;
+    height: 36px;
+  }
+  .tech2 {
+    width: 90px;
+    height: 36px;
+  }
+  .tech3 {
+    width: 109px;
+    height: 36px;
+  }
+  .title {
+    width: 100%;
+    height: auto;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    /* line-height: 44px; */
+    color: #172b4d;
+  }
+  .titleclose {
+    display: flex;
+  }
+
+  .livebtn {
+    height: 100px;
+    padding: 7px 5px;
+    color: #fff;
+    background: #ff6b00;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+  }
+  .livebtn:hover {
+    background-color: #fff5e1;
+    color: #f55800;
+  }
+  .modalbtn {
+    color: #1c1a19;
+    font-size: 20px;
+  }
+  .modaldescript {
+    font-size: 1em;
+    line-height: 1.2em;
+    padding-bottom: 10px;
+    color: #091e42;
+  }
   @media screen and (max-width: 450px) {
     .card1 {
       width: auto;
