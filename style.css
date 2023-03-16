@@ -677,7 +677,13 @@ button:disabled {
 .title {
   width: 100%;
   height: auto;
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+  font-family:
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
     sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -1250,8 +1256,14 @@ button:disabled {
   .title {
     width: 115%;
     height: auto;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-      "Helvetica Neue", sans-serif;
+    font-family:
+      Roboto,
+      Oxygen,
+      Ubuntu,
+      Cantarell,
+      "Open Sans",
+      "Helvetica Neue",
+      sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
