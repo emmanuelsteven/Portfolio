@@ -185,10 +185,26 @@ function activePop() {
   overlay.setAttribute('style', 'visibility: visible');
   pop.setAttribute('style', 'visibility: visible');
 }
-pop.addEventListener('submit', activePop);
 
 function deactivatePop() {
   overlay.setAttribute('style', 'visibility: hidden');
   pop.setAttribute('style', 'visibility: hidden');
 }
 deactivatePop();
+
+const contact=document.querySelector('.getcontact');
+const email=document.querySelector('#email');
+const errormsg=document.querySelector('.eMsg');
+const regX=  /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
+ 
+contact.addEventListener('submit', (e) => {
+  if(!regX.test(email.value)) {
+    e.preventDefault();
+    errormsg.textContent= 'invalid input character,please enter in lowercase';
+  } else {
+    errormsg.textContent='';
+  }
+}
+);
+
+pop.addEventListener('submit', activePop);
