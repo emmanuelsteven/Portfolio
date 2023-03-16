@@ -684,6 +684,7 @@ button:disabled {
   line-height: 44px;
   color: #172b4d;
   padding-left: 20px;
+  padding-top: 50px;
 }
 
 .titleclose {
@@ -695,7 +696,8 @@ button:disabled {
   display: flex;
   gap: 2%;
   padding-left: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .tech1 {
@@ -1191,11 +1193,11 @@ button:disabled {
     height: 100%;
     left: 9%;
     top: 12%;
-    padding: 5px;
     gap: 10px;
     scroll-behavior: smooth;
     overflow-y: scroll;
     overflow-x: scroll;
+    padding: 20px;
   }
 
   .bg-modal {
@@ -1233,7 +1235,7 @@ button:disabled {
   }
 
   .title {
-    width: 100%;
+    width: 115%;
     height: auto;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
@@ -1241,7 +1243,8 @@ button:disabled {
     font-size: 20px;
     color: #172b4d;
     line-height: 20px;
-    padding: 0;
+    padding-top: 5px;
+    padding-left: 0;
   }
 
   .titleclose {
