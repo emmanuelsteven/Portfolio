@@ -124,8 +124,8 @@ function cards(){
            <li>${cardsec.prog2}</li>
            <li>${cardsec.prog3}</li>
        </ul>
-       <button type="button" class="cardbtn">${cardsec.btn1}</button> 
       </div>
+      <button type="button" class="cardbtn">${cardsec.btn1}</button> 
   </div>`
 
   })
