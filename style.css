@@ -752,6 +752,10 @@ button:disabled {
   color: #f55800;
 }
 
+.eMsg{
+  height: 10px;
+}
+
 @media screen and (max-width: 768px) {
   #fullwrap {
     display: flex;
