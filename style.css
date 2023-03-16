@@ -633,18 +633,27 @@ button:disabled {
 }
 
 .modalcontainer {
-  position: fixed;
-  top: 10%;
+  /* position: fixed; */
+  /* top: 10%; */
   background-color: #fff;
   height: 631px;
   width: 1156px;
+  /* visibility: hidden; */
+}
+
+.popup{
   visibility: hidden;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 5%;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .overlay {
   position: fixed;
-  top: 0;
-  position: fixed;
+  /* top: 10%; */
   backdrop-filter: blur(5px);
   width: 100vw;
   height: 100vh;
