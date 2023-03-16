@@ -358,6 +358,13 @@ li {
   color: #fff;
 }
 
+.modal-ul li {
+  color: #091e42;
+  border: 1px solid #5b5957;
+  padding: 0.5em;
+  text-align: center;
+}
+
 .list li {
   text-align: left;
 }
@@ -478,7 +485,7 @@ button:disabled {
   background-size: 100%;
 }
 
- .card2 {
+.card2 {
   background-image: url(./img/Icons/second.png);
   height: 500px;
   background-repeat: no-repeat;
@@ -487,21 +494,23 @@ button:disabled {
   display: flex;
   flex-direction: column;
   vertical-align: bottom;
-} 
+}
 
 .card3-container {
   display: flex;
   flex-direction: column;
 }
 
-.card2:hover{
+.card2:hover {
   background-image: url(./img/Icons/first.png);
   display: block;
 }
-.card2:hover .chips{
+
+.card2:hover .chips {
   display: none;
 }
-.card3:hover button.cardbtn{
+
+.card2:hover button.cardbtn {
   display: block;
   height: 58px;
   background-color: #f55800;
@@ -509,9 +518,8 @@ button:disabled {
   border: none;
   font-size: 17px;
   margin-top: 442px;
-  width:100%;
+  width: 100%;
 }
-
 
 .card3 {
   background-image: url(./img/Icons/third.png);
@@ -522,16 +530,18 @@ button:disabled {
   display: flex;
   flex-direction: column;
   vertical-align: bottom;
-} 
-.card3:hover{
+}
+
+.card3:hover {
   background-image: url(./img/Icons/first.png);
   display: block;
 }
 
-.card3:hover .chips{
+.card3:hover .chips {
   display: none;
 }
-.card2:hover button.cardbtn{
+
+.card3:hover button.cardbtn {
   display: block;
   height: 58px;
   background-color: #f55800;
@@ -539,10 +549,10 @@ button:disabled {
   border: none;
   font-size: 17px;
   margin-top: 442px;
-  width:100%;
+  width: 100%;
 }
 
- .card4 {
+.card4 {
   background-image: url(./img/Icons/fourth.png);
   height: 500px;
   background-repeat: no-repeat;
@@ -551,17 +561,18 @@ button:disabled {
   display: flex;
   flex-direction: column;
   vertical-align: bottom;
+}
 
-} 
-
-.card4:hover{
+.card4:hover {
   background-image: url(./img/Icons/first.png);
   display: block;
 }
-.card4:hover .chips{
+
+.card4:hover .chips {
   display: none;
 }
-.card4:hover button.cardbtn{
+
+.card4:hover button.cardbtn {
   display: block;
   height: 58px;
   background-color: #f55800;
@@ -569,14 +580,7 @@ button:disabled {
   border: none;
   font-size: 17px;
   margin-top: 442px;
-  width:100%;
-}
-
-.chips {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  position: relative;
+  width: 100%;
 }
 
 .chips h3 {
@@ -608,7 +612,7 @@ button:disabled {
   margin-top: 60px;
 }
 
-.cardbtn{
+.cardbtn {
   height: 58px;
   background-color: #f55800;
   color: #fff;
@@ -633,17 +637,22 @@ button:disabled {
 }
 
 .modalcontainer {
-  position: fixed;
-  top: 10%;
   background-color: #fff;
   height: 631px;
   width: 1156px;
+}
+
+.popup {
   visibility: hidden;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 5%;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .overlay {
-  position: fixed;
-  top: 0;
   position: fixed;
   backdrop-filter: blur(5px);
   width: 100vw;
@@ -668,7 +677,7 @@ button:disabled {
 .title {
   width: 100%;
   height: auto;
-  font-family: "Roboto";
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -687,13 +696,6 @@ button:disabled {
   gap: 2%;
   padding-left: 20px;
   padding-bottom: 30px;
-}
-
-.modal-ul li {
-  color: #091e42;
-  border: 1px solid #5b5957;
-  padding: 0.5em;
-  text-align: center;
 }
 
 .tech1 {
@@ -759,19 +761,20 @@ button:disabled {
     order: 999;
   }
 
-  .card3:hover button.cardbtn{
+  .card3:hover button.cardbtn {
     margin-top: 105%;
-    height: 48px;
-  }
-  .card2:hover button.cardbtn{
-    margin-top: 105%;
-    height: 48px;
-  }
-  .card4:hover button.cardbtn{
-    margin-top: 100%;
     height: 48px;
   }
 
+  .card2:hover button.cardbtn {
+    margin-top: 105%;
+    height: 48px;
+  }
+
+  .card4:hover button.cardbtn {
+    margin-top: 100%;
+    height: 48px;
+  }
 
   #header {
     display: flex;
@@ -857,7 +860,6 @@ button:disabled {
     flex-direction: column;
     margin-right: 50px;
     width: auto;
-    
   }
 
   .card {
@@ -960,6 +962,7 @@ button:disabled {
     flex-direction: column;
     justify-content: center;
   }
+
   .section2 {
     display: flex;
     flex-direction: column;
@@ -976,6 +979,15 @@ button:disabled {
 
   #about-section {
     background: #1c1a19;
+  }
+
+  .modalflex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modalflex2 {
+    height: 40%;
   }
 
   .header3 {
@@ -1069,7 +1081,6 @@ button:disabled {
 
   .card1 {
     background-image: url(./img/Icons/fourth.png);
-    /* width: auto; */
     height: 100%;
   }
 
@@ -1138,19 +1149,22 @@ button:disabled {
 
   .chips p {
     font-size: 16px;
-    gap: 5px;
-    margin-top: -12px;
+    line-height: 20px;
+    padding-left: 4px;
   }
 
   .chips {
     display: flex;
     flex-direction: column;
-
+    gap: 10px;
+    position: relative;
   }
 
   .chips h3 {
-    font-size: 32px;
-    margin-top: 100px;
+    font-size: 25px;
+    padding-top: 20%;
+    margin-top: 0;
+    line-height: 30px;
   }
 
   hr {
@@ -1158,35 +1172,44 @@ button:disabled {
     border: 1px solid #212121;
     margin: auto;
   }
+
   .overlay {
     top: 0;
-    position: fixed;
     backdrop-filter: blur(5px);
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: scroll;
   }
+
   .modalcontainer {
-    position: fixed;
+    position: absolute;
     background-color: #fff;
     display: flex;
     flex-direction: column;
     width: 80%;
-    height: 50em;
+    height: 100%;
     left: 9%;
     top: 12%;
     padding: 5px;
     gap: 10px;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    overflow-x: scroll;
   }
 
   .bg-modal {
     height: auto;
     width: 100%;
+    padding: 0;
   }
+
   .modal-ul {
     display: flex;
     gap: 2%;
+    padding: 0;
   }
+
   .modal-ul li {
     color: #091e42;
     border: 1px solid #5b5957;
@@ -1198,24 +1221,29 @@ button:disabled {
     width: 55px;
     height: 36px;
   }
+
   .tech2 {
     width: 90px;
     height: 36px;
   }
+
   .tech3 {
     width: 109px;
     height: 36px;
   }
+
   .title {
     width: 100%;
     height: auto;
-    font-family: "Roboto";
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    /* line-height: 44px; */
     color: #172b4d;
+    line-height: 20px;
+    padding: 0;
   }
+
   .titleclose {
     display: flex;
   }
@@ -1234,20 +1262,28 @@ button:disabled {
     text-align: center;
     text-decoration: none;
   }
+
   .livebtn:hover {
     background-color: #fff5e1;
     color: #f55800;
   }
+
   .modalbtn {
     color: #1c1a19;
-    font-size: 20px;
+    font-size: 25px;
+    padding: 0;
   }
+
   .modaldescript {
     font-size: 1em;
     line-height: 1.2em;
-    padding-bottom: 10px;
     color: #091e42;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+    padding-top: 10px;
   }
+
   @media screen and (max-width: 450px) {
     .card1 {
       width: auto;
