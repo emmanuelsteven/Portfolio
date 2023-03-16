@@ -143,14 +143,14 @@
             <p class="hg">
                 I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
             </p>
-            <form action="https://formspree.io/f/xayzolrz" class="getcontact" method="post">
-                <input class="input" type="text" name="name" placeholder="Full name" maxlength="30" required />
-                <input class="input" type="email" name="email" placeholder="Email address" required>
-                <textarea cols="30" rows="10" class="textarea" name="message" placeholder="Enter text here"
-                    maxlength="500" required></textarea>
-                <button type="button" class="button-final">
+            <form action="https://formspree.io/f/xayzolrz" class="getcontact" method="POST">
+                <input class="input" type="text" name="name" placeholder="Full name" maxlength="30" required>
+                <input class="input" id="email" type="email" name="email" placeholder="Email address">
+                <textarea cols="30" rows="10" class="textarea" name="message" placeholder="Enter text here" maxlength="500" required></textarea>
+                <button type="submit" class="button-final">
                     Get in touch
                 </button>
+                <span class="eMsg"></span>
             </form>
         </div>
         <!-- <div class="footer"> -->
