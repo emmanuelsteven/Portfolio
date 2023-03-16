@@ -53,142 +53,84 @@ function mutiPostCard() {
 
 window.addEventListener('load',mutiPostCard);
 
-// const projcard4 = document.querySelector('.cardp');
-// // const projcard2 = document.querySelector('.card2');
-// // const projcard3 = document.querySelector('.card3');
-// const sect3 = [{
-//   id: 2,
-//   title: 'Profesional Art Printing Data',
-//   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-//   prog1: 'css',
-//   prog2: 'html',
-//   prog3: 'Ruby',
-//   btn1: 'See Project',
-// },
-// {
-// id: 3,
-// title: 'Profesional Art Printing Data',
-// description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-// prog1: 'css',
-// prog2: 'html',
-// prog3: 'Ruby',
-// btn1: 'See Project',
-// },
-
-// {
-// id: 4,
-// title: 'Profesional Art Printing Data',
-// description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-// prog1: 'css',
-// prog2: 'html',
-// prog3: 'Ruby',
-// btn1: 'See Project',
-// },
-// {
-// id: 5,
-// title: 'Profesional Art Printing Data',
-// description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-// prog1: 'css',
-// prog2: 'html',
-// prog3: 'Ruby',
-// btn1: 'See Project',
-// },
-
-// {
-// id: 6,
-// title: 'Profesional Art Printing Data',
-// description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-// prog1: 'css',
-// prog2: 'html',
-// prog3: 'Ruby',
-// btn1: 'See Project',
-// },
-// {
-// id: 7,
-// title: 'Profesional Art Printing Data',
-// description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-// prog1: 'css',
-// prog2: 'html',
-// prog3: 'Ruby',
-// btn1: 'See Project',
-// },];
-
-// function cards(){
-//   sect3.forEach((cardsec) => {
-//     projcard4.innerHTML = ` <div class="chips">
-//     <h3 ${cardsec.title} </h3>
-//     <p> ${cardsec.description}</p>
-//     <ul class="card-ul">
-//         <li>${cardsec.prog1}</li>
-//         <li>${cardsec.prog2}</li>
-//         <li>${cardsec.prog3}</li>
-//     </ul>
-//     <button type="button">${cardsec.btn1}</button>
-// </div>`
-
-// projcard2.innerHTML = ` <div class="chips">
-// <h3 ${cardsec.title} </h3>
-// <p> ${cardsec.description}</p>
-// <ul class="card-ul">
-//     <li>${cardsec.prog1}</li>
-//     <li>${cardsec.prog2}</li>
-//     <li>${cardsec.prog3}</li>
-// </ul>
-// <button type="button">${cardsec.btn1}</button>
-// </div>`
-
-
-// projcard3.innerHTML = ` <div class="chips">
-// <h3 ${cardsec.title} </h3>
-// <p> ${cardsec.description}</p>
-// <ul class="card-ul">
-//     <li>${cardsec.prog1}</li>
-//     <li>${cardsec.prog2}</li>
-//     <li>${cardsec.prog3}</li>
-// </ul>
-// <button type="button">${cardsec.btn1}</button>
-// </div>`
-//   });
-// }
-
-
-// window.addEventListener('load',cards);
-  
-const projcard2 =document.querySelector('.card2');
-const objcard2= [{
-  id:2,
-title: 'Profesional Art Printing Data',
-description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
- prog1: 'css',
-prog2: 'html',
-prog3: 'Ruby',
- btn1: 'See Project',
-},
-{
- id:2,
- title: 'Profesional Art Printing Data',
- description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+const projcard4 = document.querySelector('.project-cards');
+const sect3 = [{
+  id: 2,
+  title: 'Profesional Art Printing Data',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   prog1: 'css',
- prog2: 'html',
- prog3: 'Ruby',
+  prog2: 'html',
+  prog3: 'Ruby',
   btn1: 'See Project',
 },
-]
-function cards(){
-  objcard2.forEach((cardsec) => {
-    projcard2.innerHTML = ` <div class="chips">
-    <h3 ${cardsec.title} </h3>
-    <p> ${cardsec.description}</p>
-    <ul class="card-ul">
-        <li>${cardsec.prog1}</li>
-        <li>${cardsec.prog2}</li>
-        <li>${cardsec.prog3}</li>
-    </ul>
-    <button type="button">${cardsec.btn1}</button>
-</div>`})
-}
+{
+id: 3,
+title: 'Profesional Art Printing Data',
+description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+prog1: 'css',
+prog2: 'html',
+prog3: 'Ruby',
+btn1: 'See Project',
+},
 
-window.addEventListener('load',cards);
+{
+id: 4,
+title: 'Profesional Art Printing Data',
+description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+prog1: 'css',
+prog2: 'html',
+prog3: 'Ruby',
+btn1: 'See Project',
+},
+{
+id: 5,
+title: 'Profesional Art Printing Data',
+description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+prog1: 'css',
+prog2: 'html',
+prog3: 'Ruby',
+btn1: 'See Project',
+},
+
+{
+id: 6,
+title: 'Profesional Art Printing Data',
+description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+prog1: 'css',
+prog2: 'html',
+prog3: 'Ruby',
+btn1: 'See Project',
+},
+{
+id: 7,
+title: 'Profesional Art Printing Data',
+description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+prog1: 'css',
+prog2: 'html',
+prog3: 'Ruby',
+btn1: 'See Project',
+},];
+
+function cards(){
+  sect3.forEach((cardsec) => {
+
+    projcard4.innerHTML += `
+    <div class="card3">
+    <div class="chips">
+       <h3>Professional Art<br>${cardsec.title}</h3>
+       <p>${cardsec.description}</p>
+       <ul class="card-ul">
+           <li>${cardsec.prog1}</li>
+           <li>${cardsec.prog2}</li>
+           <li>${cardsec.prog3}</li>
+       </ul>
+       <button type="button" class="cardbtn">${cardsec.btn1}</button> 
+      </div>
+  </div>`
+
+  })
+}
+window.addEventListener('load', cards);
 
 
 
