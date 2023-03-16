@@ -198,7 +198,7 @@ li {
 .name {
   display: flex;
   flex-direction: row;
-  padding-left: 141px;
+  padding-left: 1%;
 }
 
 .hb {
@@ -463,8 +463,9 @@ button:disabled {
 .project-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
   padding: 10px;
-  grid-column-gap: 2px;
+  grid-column-gap: 13px;
   grid-row-gap: 2px;
   margin-left: 15px;
   margin-right: 15px;
@@ -477,7 +478,7 @@ button:disabled {
   background-size: 100%;
 }
 
-.card2 {
+ .card2 {
   background-image: url(./img/Icons/second.png);
   height: 500px;
   background-repeat: no-repeat;
@@ -486,7 +487,13 @@ button:disabled {
   display: flex;
   flex-direction: column;
   vertical-align: bottom;
+} 
+
+.card3-container {
+  display: flex;
+  flex-direction: column;
 }
+
 .card2:hover{
   background-image: url(./img/Icons/first.png);
   display: block;
@@ -546,6 +553,7 @@ button:disabled {
   vertical-align: bottom;
 
 } 
+
 .card4:hover{
   background-image: url(./img/Icons/first.png);
   display: block;
@@ -565,7 +573,6 @@ button:disabled {
 }
 
 .chips {
-  /* padding: 0 0; */
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -951,9 +958,8 @@ button:disabled {
   .name {
     display: flex;
     flex-direction: column;
-    padding: 10px 10px;
+    justify-content: center;
   }
-
   .section2 {
     display: flex;
     flex-direction: column;
