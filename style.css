@@ -198,7 +198,7 @@ li {
 .name {
   display: flex;
   flex-direction: row;
-  padding-left: 141px;
+  padding-left: 1%;
 }
 
 .hb {
@@ -358,6 +358,13 @@ li {
   color: #fff;
 }
 
+.modal-ul li {
+  color: #091e42;
+  border: 1px solid #5b5957;
+  padding: 0.5em;
+  text-align: center;
+}
+
 .list li {
   text-align: left;
 }
@@ -463,9 +470,10 @@ button:disabled {
 .project-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
   padding: 10px;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  grid-column-gap: 13px;
+  grid-row-gap: 2px;
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -488,6 +496,31 @@ button:disabled {
   vertical-align: bottom;
 }
 
+.card3-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card2:hover {
+  background-image: url(./img/Icons/first.png);
+  display: block;
+}
+
+.card2:hover .chips {
+  display: none;
+}
+
+.card2:hover button.cardbtn {
+  display: block;
+  height: 58px;
+  background-color: #f55800;
+  color: #fff;
+  border: none;
+  font-size: 17px;
+  margin-top: 442px;
+  width: 100%;
+}
+
 .card3 {
   background-image: url(./img/Icons/third.png);
   height: 500px;
@@ -497,6 +530,26 @@ button:disabled {
   display: flex;
   flex-direction: column;
   vertical-align: bottom;
+}
+
+.card3:hover {
+  background-image: url(./img/Icons/first.png);
+  display: block;
+}
+
+.card3:hover .chips {
+  display: none;
+}
+
+.card3:hover button.cardbtn {
+  display: block;
+  height: 58px;
+  background-color: #f55800;
+  color: #fff;
+  border: none;
+  font-size: 17px;
+  margin-top: 442px;
+  width: 100%;
 }
 
 .card4 {
@@ -510,12 +563,24 @@ button:disabled {
   vertical-align: bottom;
 }
 
-.chips {
-  padding: 0 0;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  position: relative;
+.card4:hover {
+  background-image: url(./img/Icons/first.png);
+  display: block;
+}
+
+.card4:hover .chips {
+  display: none;
+}
+
+.card4:hover button.cardbtn {
+  display: block;
+  height: 58px;
+  background-color: #f55800;
+  color: #fff;
+  border: none;
+  font-size: 17px;
+  margin-top: 442px;
+  width: 100%;
 }
 
 .chips h3 {
@@ -547,13 +612,14 @@ button:disabled {
   margin-top: 60px;
 }
 
-.card1 button {
+.cardbtn {
   height: 58px;
   background-color: #f55800;
   color: #fff;
   border: none;
   font-size: 17px;
   margin-top: 28px;
+  display: none;
 }
 
 .card1 button:active {
@@ -570,6 +636,122 @@ button:disabled {
   visibility: hidden;
 }
 
+.modalcontainer {
+  background-color: #fff;
+  height: 631px;
+  width: 1156px;
+}
+
+.popup {
+  visibility: hidden;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 5%;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay {
+  position: fixed;
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.bg-modal {
+  padding: 0 20px;
+  width: 659px;
+  height: 448px;
+}
+
+.modalflex {
+  display: flex;
+}
+
+.title {
+  width: 100%;
+  height: auto;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+.titleclose {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-ul {
+  display: flex;
+  gap: 2%;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.tech1 {
+  width: 55px;
+  height: 36px;
+}
+
+.tech2 {
+  width: 90px;
+  height: 36px;
+}
+
+.tech3 {
+  width: 109px;
+  height: 36px;
+}
+
+.modalbtn {
+  color: #1c1a19;
+  font-size: 40px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.modaldescript {
+  font-size: 1em;
+  line-height: 1.8em;
+  padding-bottom: 10px;
+  color: #344563;
+  width: 424px;
+  height: 336px;
+  margin-bottom: 18%;
+}
+
+.livebtn {
+  height: 100px;
+  padding: 10px 10px;
+  color: #fff;
+  background: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.livebtn:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
 @media screen and (max-width: 768px) {
   #fullwrap {
     display: flex;
@@ -579,6 +761,21 @@ button:disabled {
 
   #fullwrap > * {
     order: 999;
+  }
+
+  .card3:hover button.cardbtn {
+    margin-top: 105%;
+    height: 48px;
+  }
+
+  .card2:hover button.cardbtn {
+    margin-top: 105%;
+    height: 48px;
+  }
+
+  .card4:hover button.cardbtn {
+    margin-top: 100%;
+    height: 48px;
   }
 
   #header {
@@ -765,7 +962,7 @@ button:disabled {
   .name {
     display: flex;
     flex-direction: column;
-    padding: 10px 10px;
+    justify-content: center;
   }
 
   .section2 {
@@ -784,6 +981,15 @@ button:disabled {
 
   #about-section {
     background: #1c1a19;
+  }
+
+  .modalflex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modalflex2 {
+    height: 40%;
   }
 
   .header3 {
@@ -877,19 +1083,22 @@ button:disabled {
 
   .card1 {
     background-image: url(./img/Icons/fourth.png);
-    width: auto;
+    height: 100%;
   }
 
   .card4 {
     background-image: url(./img/Icons/fourth.png);
+    height: 100%;
   }
 
   .card2 {
     background-image: url(./img/Icons/fourth.png);
+    height: 100%;
   }
 
   .card3 {
     background-image: url(./img/Icons/fourth.png);
+    height: 100%;
   }
 
   .card1 button {
@@ -942,24 +1151,140 @@ button:disabled {
 
   .chips p {
     font-size: 16px;
-    gap: 5px;
-    margin-top: -12px;
+    line-height: 20px;
+    padding-left: 4px;
   }
 
   .chips {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    position: relative;
   }
 
   .chips h3 {
-    font-size: 32px;
-    margin-top: 100px;
+    font-size: 25px;
+    padding-top: 20%;
+    margin-top: 0;
+    line-height: 30px;
   }
 
   hr {
     width: 500px;
     border: 1px solid #212121;
     margin: auto;
+  }
+
+  .overlay {
+    top: 0;
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: scroll;
+  }
+
+  .modalcontainer {
+    position: absolute;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    left: 9%;
+    top: 12%;
+    gap: 10px;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    padding: 20px;
+  }
+
+  .bg-modal {
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+
+  .modal-ul {
+    display: flex;
+    gap: 2%;
+    padding: 0;
+  }
+
+  .modal-ul li {
+    color: #091e42;
+    border: 1px solid #5b5957;
+    padding: 0.5em;
+    text-align: center;
+  }
+
+  .tech1 {
+    width: 55px;
+    height: 36px;
+  }
+
+  .tech2 {
+    width: 90px;
+    height: 36px;
+  }
+
+  .tech3 {
+    width: 109px;
+    height: 36px;
+  }
+
+  .title {
+    width: 115%;
+    height: auto;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #172b4d;
+    line-height: 20px;
+    padding-top: 5px;
+    padding-left: 0;
+  }
+
+  .titleclose {
+    display: flex;
+  }
+
+  .livebtn {
+    height: 100px;
+    padding: 7px 5px;
+    color: #fff;
+    background: #ff6b00;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .livebtn:hover {
+    background-color: #fff5e1;
+    color: #f55800;
+  }
+
+  .modalbtn {
+    color: #1c1a19;
+    font-size: 25px;
+    padding: 0;
+  }
+
+  .modaldescript {
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #091e42;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+    padding-top: 10px;
   }
 
   @media screen and (max-width: 450px) {
