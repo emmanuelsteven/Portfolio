@@ -501,7 +501,7 @@ button:disabled {
 .card2:hover .chips{
   display: none;
 }
-.card2:hover button.cardbtn{
+.card3:hover button.cardbtn{
   display: block;
   height: 58px;
   background-color: #f55800;
@@ -531,7 +531,7 @@ button:disabled {
 .card3:hover .chips{
   display: none;
 }
-.card3:hover button.cardbtn{
+.card2:hover button.cardbtn{
   display: block;
   height: 58px;
   background-color: #f55800;

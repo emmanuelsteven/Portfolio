@@ -133,4 +133,22 @@ function cards(){
 window.addEventListener('load', cards);
 
 
+// popupwindow
+
+const pops = document.querySelector('.popup');
+
+const popUpWindow = {
+  title: 'Keeping track of hundreds  of components website',
+  description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+  tech1: 'css',
+  tech2: 'Bootstrap',
+  tech3: 'Ruby on rails',
+  button1: 'See Live', 
+  button2: 'See Source',
+};
+
+function pops(){
+  popy.innerHTML =
+}
+
 
