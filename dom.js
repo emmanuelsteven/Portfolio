@@ -214,7 +214,7 @@ const comments = document.getElementById('textArea');
 function storeUserData(){
 const  userData = {
   username: userName.value,
-  email:email.value,
+  email: email.value,
   comments: textArea.value,
 };
 
@@ -223,7 +223,7 @@ const  userData = {
 contact.addEventListener('input', storeUserData);
 
 function retriveUserData(){
-  const retrive =JSON.parse(localStorage.getItem('userdata'));
+  const retrive = JSON.parse(localStorage.getItem('userdata'));
   userName.value = retrive.username;
   email.value = retrive.email;
   textArea.value = retrive.comments;
