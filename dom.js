@@ -208,8 +208,8 @@ contact.addEventListener('submit', (e) => {
 });
 
 //local storage 
-const name =document.getElementById('userName');
-const comments =document.getElementById('textArea');
+const name = document.getElementById('userName');
+const comments = document.getElementById('textArea');
 
 function storeUserData(){
 const  userData = {
