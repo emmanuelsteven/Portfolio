@@ -1,4 +1,3 @@
-
 const navyul = document.querySelector('#navy-ul');
 const vet = document.querySelector('.vet-parents');
 const menux = document.querySelector('.menu-x');
@@ -207,9 +206,9 @@ contact.addEventListener('submit', (e) => {
   }
 });
 
-//local storage 
+// local storage
 /* Getting the value of the input field and textarea. */
-const name = document.getElementById('userName');
+const fullName = document.getElementById('userName');
 const comments = document.getElementById('textArea');
 
 /**
@@ -217,15 +216,15 @@ const comments = document.getElementById('textArea');
  * stores them in an object called userData. The userData object is then stored in localStorage as a
  * string
  */
-function storeUserData(){
-const  userData = {
-  username: userName.value,
-  email: email.value,
-  comments: textArea.value,
-};
+function storeUserData() {
+  const userData = {
+    username: fullName.value,
+    email: email.value,
+    comments: comments.value,
+  };
 
- localStorage.setItem('userdata', JSON.stringify(userData));
-};
+  localStorage.setItem('userdata', JSON.stringify(userData));
+}
 
 /* Listening for any input from the user and storing it in local storage. */
 contact.addEventListener('input', storeUserData);
@@ -234,11 +233,11 @@ contact.addEventListener('input', storeUserData);
  * The function retriveUserData() is called when the page loads. It retrieves the data from local
  * storage and displays it in the form
  */
-function retriveUserData(){
+function retriveUserData() {
   const retrive = JSON.parse(localStorage.getItem('userdata'));
-  userName.value = retrive.username;
+  fullName.value = retrive.username;
   email.value = retrive.email;
-  textArea.value = retrive.comments;
+  comments.value = retrive.comments;
 }
 /* Retrieving the data from local storage and displaying it in the form. */
 retriveUserData();
