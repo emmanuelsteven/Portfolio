@@ -206,4 +206,40 @@ contact.addEventListener('submit', (e) => {
   }
 });
 
+// local storage
+/* Getting the value of the input field and textarea. */
+const fullName = document.getElementById('userName');
+const comments = document.getElementById('textArea');
+
+/**
+ * The function storeUserData() takes the values of the userName, email, and textArea variables and
+ * stores them in an object called userData. The userData object is then stored in localStorage as a
+ * string
+ */
+function storeUserData() {
+  const userData = {
+    username: fullName.value,
+    email: email.value,
+    comments: comments.value,
+  };
+
+  localStorage.setItem('userdata', JSON.stringify(userData));
+}
+
+/* Listening for any input from the user and storing it in local storage. */
+contact.addEventListener('input', storeUserData);
+
+/**
+ * The function retriveUserData() is called when the page loads. It retrieves the data from local
+ * storage and displays it in the form
+ */
+function retriveUserData() {
+  const retrive = JSON.parse(localStorage.getItem('userdata'));
+  fullName.value = retrive.username;
+  email.value = retrive.email;
+  comments.value = retrive.comments;
+}
+/* Retrieving the data from local storage and displaying it in the form. */
+retriveUserData();
+
 pop.addEventListener('submit', activePop);
