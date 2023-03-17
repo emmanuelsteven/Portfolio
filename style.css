@@ -677,7 +677,8 @@ button:disabled {
 .title {
   width: 100%;
   height: auto;
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -752,8 +753,16 @@ button:disabled {
   color: #f55800;
 }
 
-.eMsg{
+.eMsg {
   height: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 44px;
+  color: red;
+  padding: 2%;
+  margin-top: 1%;
 }
 
 @media screen and (max-width: 768px) {
@@ -1241,7 +1250,8 @@ button:disabled {
   .title {
     width: 115%;
     height: auto;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+      "Helvetica Neue", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
