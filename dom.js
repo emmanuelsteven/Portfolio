@@ -208,8 +208,8 @@ contact.addEventListener('submit', (e) => {
 
 // local storage
 /* Getting the value of the input field and textarea. */
-const fullName = document.getElementById('userName');
-const comments = document.getElementById('textArea');
+const fullName = document.getEllementById('userName');
+const comments = document.getEllementById('textArea');
 
 /**
  * The function storeUserData() takes the values of the userName, email, and textArea variables and
