@@ -1,3 +1,4 @@
+
 const navyul = document.querySelector('#navy-ul');
 const vet = document.querySelector('.vet-parents');
 const menux = document.querySelector('.menu-x');
@@ -205,5 +206,28 @@ contact.addEventListener('submit', (e) => {
     errormsg.textContent = '';
   }
 });
+
+//local storage 
+const name =document.getElementById('userName');
+const comments =document.getElementById('textArea');
+
+function storeUserData(){
+const  userData = {
+  username: userName.value,
+  email:email.value,
+  comments: textArea.value,
+};
+
+ localStorage.setItem('userdata', JSON.stringify(userData));
+};
+contact.addEventListener('input', storeUserData);
+
+function retriveUserData(){
+  const retrive =JSON.parse(localStorage.getItem('userdata'));
+  userName.value = retrive.username;
+  email.value = retrive.email;
+  textArea.value = retrive.comments;
+}
+retriveUserData();
 
 pop.addEventListener('submit', activePop);
