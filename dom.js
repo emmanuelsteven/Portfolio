@@ -200,7 +200,7 @@ const regX=  /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
 contact.addEventListener('submit', (e) => {
   if(!regX.test(email.value)) {
     e.preventDefault();
-    errormsg.textContent= 'invalid input character,please enter in lowercase';
+    errormsg.textContent= 'Error! please enter a valid email address';
   } else {
     errormsg.textContent='';
   }
